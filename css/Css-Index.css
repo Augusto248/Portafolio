@@ -82,13 +82,13 @@
     display:inline-block;
   }
 
-.sobreMi,.habilidades,.contacto
+.sobreMi,.habilidades,.contacto,.otherSkills
 {
   text-align: center;
   margin-top: 90px;
 }
 
-  .sobreMi h4,.habilidades h4,.contacto h4
+  .sobreMi h4,.habilidades h4,.otherSkills h4,.contacto h4
   {
     color: rgb(41, 39, 39);
     font-size: 30px;
@@ -118,10 +118,12 @@
     font-family: providence-bold;
   }
 
-  .habilidades img
+  .habilidades img,.otherSkills img
   {
     height: 150px;
     width: 150px;
+    margin-top: 30px;
+
   }
 
   .contacto img
@@ -130,4 +132,9 @@
     width: 60px;
     margin-left: 30px;
     margin-top: 30px;
+    transition: transform .2s; /* Animation */
+  }
+
+  .contacto img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
