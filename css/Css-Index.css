@@ -27,7 +27,7 @@
 
 /*AVERIGUAR LO DE POSITION*/
 #particles-js {
-    background-image: url("/img/Website-Design-Background-1.jpg");
+    background-image: url("../img/Website-Design-Background-1.jpg");
     background-size:     cover;   
     background-repeat:   no-repeat;
     background-position: center center;
@@ -46,7 +46,7 @@
 
   @font-face {
     font-family: 'providence-bold';
-  src: url('/Elementos/Comfortaa_Regular.ttf');
+  src: url('../Elementos/Comfortaa_Regular.ttf');
   }
     
   #overlay h1,p{
@@ -82,13 +82,13 @@
     display:inline-block;
   }
 
-.sobreMi,.habilidades,.contacto,.otherSkills
+.sobreMi,.habilidades,.contacto,.otherSkills,.proyectos
 {
   text-align: center;
   margin-top: 90px;
 }
 
-  .sobreMi h4,.habilidades h4,.otherSkills h4,.contacto h4
+  .sobreMi h4,.habilidades h4,.otherSkills h4,.contacto h4,.proyectos h4
   {
     color: rgb(41, 39, 39);
     font-size: 30px;
@@ -120,8 +120,8 @@
 
   .habilidades img,.otherSkills img
   {
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     margin-top: 30px;
 
   }
