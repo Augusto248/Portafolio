@@ -3,8 +3,24 @@ $(document).ready(function()
   var div=$("#ajax");
   div.html("<p>test</p>");
   //getElementsAjax();
-  
 
+  $(".navDinamico").hide();
+
+
+});
+
+
+$(window).scroll(function (event) {
+  if ( $("#particles-js").height() > $(window).scrollTop()) 
+  {
+    $(".navDinamico").hide();
+    console.log("hide");
+  }  
+  else
+  {
+    $(".navDinamico").show();
+    console.log("show");
+  }
 });
 
 
