@@ -1,31 +1,3 @@
-
-
-.header 
-{
-    text-align: center;
-    height: 300px;
-    padding-top: 100px;
-
-}
-
-
-.header2
-{
-    text-align: center;
-    background-color: gray;
-
-}
-
-/*ARREGLA EL PROBLEMA DEL SCROLL BAR EN HORIZONTAL DE BOOTSTRAP.*/
-.row {
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-
-
-
-/*AVERIGUAR LO DE POSITION*/
 #particles-js {
     background-image: url("../img/Website-Design-Background-1.jpg");
     background-size:     cover;   
@@ -73,13 +45,44 @@
     position: absolute;
     text-align: center;
     width: 100%;
+    padding-top: 12px;
+
   }
 
-  .navegacion p
+  .navegacion ul
+  {   
+     padding: 0;
+  }
+  
+
+  .navegacion ul li
   {
-    margin:0;
-    padding-top: 20px;
-    display:inline-block;
+    display: inline;
+    font-size: 20px;
+    font-family: providence-bold;
+
+  }
+
+  .navegacion ul li a
+  {
+    color: white;
+  }
+
+  .navegacion ul li:nth-child(1)::after
+  {
+    content: "|";
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+
+  }
+
+  .navegacion ul li:nth-child(2)::after
+  {
+    content: "|";
+    color: white;
+    padding-right: 7px;
+    padding-left: 7px;
   }
 
 .sobreMi,.habilidades,.contacto,.otherSkills,.proyectos
@@ -191,33 +194,54 @@
 
   .navDinamico
   {
-    width: 100%;
+    width: 90%;
+    right: 5%;
+    left: 5%;
     height: 60px;
     background-color: black;
     position: fixed;
     top:0;
     text-align: center;
+    padding-top: 12px;
+    
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+
   }
 
   .navDinamico ul
-  {   
-     padding-top: 12px;
+  {  
+     padding: 0; 
+     
   }
   
 
   .navDinamico ul li
   {
-    color: white;
     display: inline;
     font-size: 20px;
     font-family: providence-bold;
 
   }
 
-  .test
+  .navDinamico ul li a
   {
-    width: 100%;
-    height: 130px;
-    background-color: red;
-    position: relative;
+    color: white;
   }
+
+  .navDinamico ul li:nth-child(1)::after
+  {
+    content: "|";
+    color: white;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .navDinamico ul li:nth-child(2)::after
+  {
+    content: "|";
+    color:white;
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+
