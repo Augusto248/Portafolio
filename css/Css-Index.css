@@ -1,5 +1,5 @@
 #particles-js {
-    background-image: url("../img/Website-Design-Background-1.jpg");
+    background-image: url("../assets/img/Website-Design-Background-1.jpg");
     background-size:     cover;   
     background-repeat:   no-repeat;
     background-position: center center;
@@ -18,7 +18,7 @@
 
   @font-face {
     font-family: 'providence-bold';
-  src: url('../Elementos/Comfortaa_Regular.ttf');
+  src: url('../assets/fonts/Comfortaa_Regular.ttf');
   }
     
   #overlay h1,p{
