@@ -135,7 +135,8 @@ body
   {
     color: rgb(41, 39, 39);
     font-size: 20px;
-    font-family: providence-bold;
+    padding: 20px;
+    font-family: Helvetica, sans-serif;
   }
   
   .footer
@@ -211,7 +212,7 @@ body
 
 .misProyectos
 {
-  margin-top: 20px;
+  margin-top: 70px;
   display: flex;
 	/*LOS ELEMENTOS SE DESBORDAN*/
 	flex-wrap: wrap;
@@ -225,6 +226,7 @@ body
   width: 420px;
   border-radius: 10px;
   margin-right: 40px;
+  margin-left: 40px;
   margin-bottom: 40px;
 }
 
@@ -243,6 +245,8 @@ body
   margin-bottom: 10px;
   font-size: 27px;
 }
+
+
 
 .proyectos .misProyectos .proyect p
 {
@@ -266,6 +270,8 @@ border: solid 1px #343a40 ;
 font-size: 27px;
 color: black;
 outline: 0;
+transition: background-color;
+transition-duration: 1s;
 }
 
 
@@ -283,6 +289,8 @@ font-size: 24px;
 color: white;
 background-color: #007bff;
 outline: 0;
+transition: background-color;
+transition-duration: 1s;
 
 }
 
